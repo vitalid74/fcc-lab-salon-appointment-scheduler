@@ -183,7 +183,7 @@ INSERT INTO public.appointments VALUES (16, 13, 4, '4pm');
 -- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.customers VALUES (1, '555-555-5555', 'Mike');
+INSERT INTO public.customers VALUES (1, '555-555-5555', 'Fabio');
 INSERT INTO public.customers VALUES (12, '444-444-4444', 'John');
 INSERT INTO public.customers VALUES (13, '222-222-2222', 'Julia');
 INSERT INTO public.customers VALUES (14, '111-111-1111', 'Pit');
