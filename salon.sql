@@ -177,17 +177,17 @@ INSERT INTO public.appointments VALUES (1, 1, 3, '10:20');
 INSERT INTO public.appointments VALUES (2, 1, 5, '12am');
 INSERT INTO public.appointments VALUES (15, 14, 4, '13:00');
 INSERT INTO public.appointments VALUES (16, 13, 4, '4pm');
+INSERT INTO public.appointments VALUES (23, 1, 1, '10:30');
 
 
 --
 -- Data for Name: customers; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.customers VALUES (1, '555-555-5555', 'Fabio');
 INSERT INTO public.customers VALUES (12, '444-444-4444', 'John');
 INSERT INTO public.customers VALUES (13, '222-222-2222', 'Julia');
 INSERT INTO public.customers VALUES (14, '111-111-1111', 'Pit');
-INSERT INTO public.customers VALUES (19, '555-5555', 'Test');
+INSERT INTO public.customers VALUES (1, '555-555-5555', 'Fabio');
 
 
 --
@@ -205,7 +205,7 @@ INSERT INTO public.services VALUES (5, 'trim');
 -- Name: appointments_appointment_id_seq; Type: SEQUENCE SET; Schema: public; Owner: freecodecamp
 --
 
-SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 22, true);
+SELECT pg_catalog.setval('public.appointments_appointment_id_seq', 23, true);
 
 
 --
